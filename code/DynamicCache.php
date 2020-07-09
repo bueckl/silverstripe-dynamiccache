@@ -6,7 +6,7 @@
  * @author Damian Mooyman
  * @package dynamiccache
  */
-class DynamicCache extends Object implements Flushable
+class DynamicCache extends SS_Object implements Flushable
 {
     public static function flush() {
         self::inst()->clear();
